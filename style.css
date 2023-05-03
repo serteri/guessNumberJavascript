@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  position: relative;
+}
+
+#game {
+  position: absolute;
+  top: 20rem;
+
+  left: 40rem;
+}
+
+.title {
+  padding-bottom: 2rem;
+}
+.btn {
+  margin-bottom: 1rem;
+  color: blueviolet;
+  border-radius: 0.4rem;
+  font-size: 0.9rem;
+  background-color: beige;
+  transition-property: background-color;
+}
+.btn:hover {
+  background-color: aqua;
+}
